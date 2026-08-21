@@ -1,0 +1,44 @@
+{
+    "name": "quillstack/events",
+    "description": "An event dispatcher based on PSR-14: Event Dispatcher.",
+    "type": "library",
+    "license": "MIT",
+    "keywords": [
+        "events",
+        "dispatcher",
+        "psr",
+        "psr-14",
+        "php8"
+    ],
+    "homepage": "https://quillstack.org/events",
+    "authors": [
+        {
+            "name": "Radek Ziemniewicz",
+            "email": "radek@quillstack.org"
+        }
+    ],
+    "require": {
+        "php": "^8.1",
+        "psr/event-dispatcher": "^1.0"
+    },
+    "require-dev": {
+        "phpstan/phpstan": "^2.0",
+        "quillstack/unit-tests": "^0.7"
+    },
+    "autoload": {
+        "psr-4": {
+            "Quillstack\\Events\\": "src/",
+            "Quillstack\\Events\\Tests\\": "tests/"
+        }
+    },
+    "scripts": {
+        "test": "unit-tests",
+        "test:coverage": "phpdbg -qrr ./vendor/bin/unit-tests",
+        "stan": "phpstan analyse"
+    },
+    "extra": {
+        "branch-alias": {
+            "dev-main": "0.4.x-dev"
+        }
+    }
+}
