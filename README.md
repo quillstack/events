@@ -1,6 +1,11 @@
 # Quillstack Events
 
 [![Tests](https://github.com/quillstack/events/actions/workflows/tests.yml/badge.svg)](https://github.com/quillstack/events/actions/workflows/tests.yml)
+[![Latest Version](https://img.shields.io/packagist/v/quillstack/events.svg)](https://packagist.org/packages/quillstack/events)
+[![Downloads](https://img.shields.io/packagist/dt/quillstack/events.svg)](https://packagist.org/packages/quillstack/events)
+[![PHP Version](https://img.shields.io/packagist/php-v/quillstack/events)](https://packagist.org/packages/quillstack/events)
+[![StyleCI](https://github.styleci.io/repos/1342146261/shield?branch=main)](https://github.styleci.io/repos/1342146261?branch=main)
+[![License](https://img.shields.io/packagist/l/quillstack/events)](https://github.com/quillstack/events/blob/main/LICENSE)
 
 An event dispatcher based on PSR-14: Event Dispatcher.
 
