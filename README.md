@@ -6,6 +6,11 @@
 [![PHP Version](https://img.shields.io/packagist/php-v/quillstack/events)](https://packagist.org/packages/quillstack/events)
 [![StyleCI](https://github.styleci.io/repos/1342146261/shield?branch=main)](https://github.styleci.io/repos/1342146261?branch=main)
 [![CodeFactor](https://www.codefactor.io/repository/github/quillstack/events/badge)](https://www.codefactor.io/repository/github/quillstack/events)
+[![Quality Gate](https://sonarcloud.io/api/project_badges/measure?project=quillstack_events&metric=alert_status)](https://sonarcloud.io/summary/new_code?id=quillstack_events)
+[![Coverage](https://sonarcloud.io/api/project_badges/measure?project=quillstack_events&metric=coverage)](https://sonarcloud.io/summary/new_code?id=quillstack_events)
+[![Maintainability](https://sonarcloud.io/api/project_badges/measure?project=quillstack_events&metric=sqale_rating)](https://sonarcloud.io/summary/new_code?id=quillstack_events)
+[![Reliability](https://sonarcloud.io/api/project_badges/measure?project=quillstack_events&metric=reliability_rating)](https://sonarcloud.io/summary/new_code?id=quillstack_events)
+[![Security](https://sonarcloud.io/api/project_badges/measure?project=quillstack_events&metric=security_rating)](https://sonarcloud.io/summary/new_code?id=quillstack_events)
 [![License](https://img.shields.io/packagist/l/quillstack/events)](https://github.com/quillstack/events/blob/main/LICENSE)
 
 An event dispatcher based on PSR-14: Event Dispatcher.
