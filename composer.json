@@ -10,7 +10,7 @@
         "psr-14",
         "php8"
     ],
-    "homepage": "https://quillstack.org/events",
+    "homepage": "https://quillstack.org/packages/events",
     "authors": [
         {
             "name": "Radek Ziemniewicz",
